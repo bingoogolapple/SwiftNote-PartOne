@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <array>
+            <dict>
+                <key>id</key>
+                <string>bluetooth</string>
+                <key>name</key>
+                <string>蓝牙</string>
+                <key>detail</key>
+                <string>关闭</string>
+            </dict>
+        </array>
+        
+        <array>
+            <dict>
+                <key>id</key>
+                <string>normal</string>
+                <key>name</key>
+                <string>通用</string>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>private</string>
+                <key>name</key>
+                <string>隐私</string>
+            </dict>
+        </array>
+        
+        <array>
+            <dict>
+                <key>id</key>
+                <string>map</string>
+                <key>name</key>
+                <string>地图</string>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>safari</string>
+                <key>name</key>
+                <string>浏览器</string>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>photo</string>
+                <key>name</key>
+                <string>照片</string>
+            </dict>
+        </array>
+        
+        <array>
+            <dict>
+                <key>id</key>
+                <string>twitter</string>
+                <key>name</key>
+                <string>twitter</string>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>facebook</string>
+                <key>name</key>
+                <string>facebook</string>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>weibo</string>
+                <key>name</key>
+                <string>微博</string>
+                <key>detail</key>
+                <string>新浪微博</string>
+            </dict>
+        </array>
+
+    </array>
+</plist>

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315CADEF194B42E300A1AE78 /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE0194B42E300A1AE78 /* agt.gif */; };
+		315CADF0194B42E300A1AE78 /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE1194B42E300A1AE78 /* baxi.gif */; };
+		315CADF1194B42E300A1AE78 /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE2194B42E300A1AE78 /* deguo.gif */; };
+		315CADF2194B42E300A1AE78 /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE3194B42E300A1AE78 /* faguo.gif */; };
+		315CADF3194B42E300A1AE78 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE4194B42E300A1AE78 /* flags.plist */; };
+		315CADF4194B42E300A1AE78 /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE5194B42E300A1AE78 /* hanguo.gif */; };
+		315CADF5194B42E300A1AE78 /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE6194B42E300A1AE78 /* helan.gif */; };
+		315CADF6194B42E300A1AE78 /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE7194B42E300A1AE78 /* putaoya.gif */; };
+		315CADF7194B42E300A1AE78 /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE8194B42E300A1AE78 /* ruidian.gif */; };
+		315CADF8194B42E300A1AE78 /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADE9194B42E300A1AE78 /* ruishi.gif */; };
+		315CADF9194B42E300A1AE78 /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADEA194B42E300A1AE78 /* wlgui.gif */; };
+		315CADFA194B42E300A1AE78 /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADEB194B42E300A1AE78 /* xiby.gif */; };
+		315CADFB194B42E300A1AE78 /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADEC194B42E300A1AE78 /* ydl.gif */; };
+		315CADFC194B42E300A1AE78 /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315CADED194B42E300A1AE78 /* ying.gif */; };
+		315CADFD194B42E300A1AE78 /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 315CADEE194B42E300A1AE78 /* zhongguo.jpg */; };
+		318B4CBB194AD02D0093870F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B4CBA194AD02D0093870F /* AppDelegate.swift */; };
+		318B4CBD194AD02D0093870F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B4CBC194AD02D0093870F /* ViewController.swift */; };
+		318B4CC0194AD02D0093870F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318B4CBE194AD02D0093870F /* Main.storyboard */; };
+		318B4CC2194AD02D0093870F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318B4CC1194AD02D0093870F /* Images.xcassets */; };
+		318B4CCE194AD02D0093870F /* GuoQiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B4CCD194AD02D0093870F /* GuoQiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		318B4CC8194AD02D0093870F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318B4CAD194AD02D0093870F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318B4CB4194AD02D0093870F;
+			remoteInfo = GuoQi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315CADE0194B42E300A1AE78 /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		315CADE1194B42E300A1AE78 /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		315CADE2194B42E300A1AE78 /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		315CADE3194B42E300A1AE78 /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		315CADE4194B42E300A1AE78 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		315CADE5194B42E300A1AE78 /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		315CADE6194B42E300A1AE78 /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		315CADE7194B42E300A1AE78 /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		315CADE8194B42E300A1AE78 /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		315CADE9194B42E300A1AE78 /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		315CADEA194B42E300A1AE78 /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		315CADEB194B42E300A1AE78 /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		315CADEC194B42E300A1AE78 /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		315CADED194B42E300A1AE78 /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		315CADEE194B42E300A1AE78 /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		318B4CB5194AD02D0093870F /* GuoQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuoQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		318B4CB9194AD02D0093870F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318B4CBA194AD02D0093870F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		318B4CBC194AD02D0093870F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		318B4CBF194AD02D0093870F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		318B4CC1194AD02D0093870F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		318B4CC7194AD02D0093870F /* GuoQiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuoQiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		318B4CCC194AD02D0093870F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318B4CCD194AD02D0093870F /* GuoQiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuoQiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318B4CB2194AD02D0093870F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B4CC4194AD02D0093870F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		315CADDF194B42E300A1AE78 /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				315CADE0194B42E300A1AE78 /* agt.gif */,
+				315CADE1194B42E300A1AE78 /* baxi.gif */,
+				315CADE2194B42E300A1AE78 /* deguo.gif */,
+				315CADE3194B42E300A1AE78 /* faguo.gif */,
+				315CADE4194B42E300A1AE78 /* flags.plist */,
+				315CADE5194B42E300A1AE78 /* hanguo.gif */,
+				315CADE6194B42E300A1AE78 /* helan.gif */,
+				315CADE7194B42E300A1AE78 /* putaoya.gif */,
+				315CADE8194B42E300A1AE78 /* ruidian.gif */,
+				315CADE9194B42E300A1AE78 /* ruishi.gif */,
+				315CADEA194B42E300A1AE78 /* wlgui.gif */,
+				315CADEB194B42E300A1AE78 /* xiby.gif */,
+				315CADEC194B42E300A1AE78 /* ydl.gif */,
+				315CADED194B42E300A1AE78 /* ying.gif */,
+				315CADEE194B42E300A1AE78 /* zhongguo.jpg */,
+			);
+			path = guoqi;
+			sourceTree = "<group>";
+		};
+		318B4CAC194AD02D0093870F = {
+			isa = PBXGroup;
+			children = (
+				318B4CB7194AD02D0093870F /* GuoQi */,
+				318B4CCA194AD02D0093870F /* GuoQiTests */,
+				318B4CB6194AD02D0093870F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		318B4CB6194AD02D0093870F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318B4CB5194AD02D0093870F /* GuoQi.app */,
+				318B4CC7194AD02D0093870F /* GuoQiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		318B4CB7194AD02D0093870F /* GuoQi */ = {
+			isa = PBXGroup;
+			children = (
+				315CADDF194B42E300A1AE78 /* guoqi */,
+				318B4CBA194AD02D0093870F /* AppDelegate.swift */,
+				318B4CBC194AD02D0093870F /* ViewController.swift */,
+				318B4CBE194AD02D0093870F /* Main.storyboard */,
+				318B4CC1194AD02D0093870F /* Images.xcassets */,
+				318B4CB8194AD02D0093870F /* Supporting Files */,
+			);
+			path = GuoQi;
+			sourceTree = "<group>";
+		};
+		318B4CB8194AD02D0093870F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				318B4CB9194AD02D0093870F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		318B4CCA194AD02D0093870F /* GuoQiTests */ = {
+			isa = PBXGroup;
+			children = (
+				318B4CCD194AD02D0093870F /* GuoQiTests.swift */,
+				318B4CCB194AD02D0093870F /* Supporting Files */,
+			);
+			path = GuoQiTests;
+			sourceTree = "<group>";
+		};
+		318B4CCB194AD02D0093870F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				318B4CCC194AD02D0093870F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		318B4CB4194AD02D0093870F /* GuoQi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318B4CD1194AD02D0093870F /* Build configuration list for PBXNativeTarget "GuoQi" */;
+			buildPhases = (
+				318B4CB1194AD02D0093870F /* Sources */,
+				318B4CB2194AD02D0093870F /* Frameworks */,
+				318B4CB3194AD02D0093870F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuoQi;
+			productName = GuoQi;
+			productReference = 318B4CB5194AD02D0093870F /* GuoQi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		318B4CC6194AD02D0093870F /* GuoQiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318B4CD4194AD02D0093870F /* Build configuration list for PBXNativeTarget "GuoQiTests" */;
+			buildPhases = (
+				318B4CC3194AD02D0093870F /* Sources */,
+				318B4CC4194AD02D0093870F /* Frameworks */,
+				318B4CC5194AD02D0093870F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318B4CC9194AD02D0093870F /* PBXTargetDependency */,
+			);
+			name = GuoQiTests;
+			productName = GuoQiTests;
+			productReference = 318B4CC7194AD02D0093870F /* GuoQiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		318B4CAD194AD02D0093870F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = bingoogol;
+				TargetAttributes = {
+					318B4CB4194AD02D0093870F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					318B4CC6194AD02D0093870F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 318B4CB4194AD02D0093870F;
+					};
+				};
+			};
+			buildConfigurationList = 318B4CB0194AD02D0093870F /* Build configuration list for PBXProject "GuoQi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 318B4CAC194AD02D0093870F;
+			productRefGroup = 318B4CB6194AD02D0093870F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				318B4CB4194AD02D0093870F /* GuoQi */,
+				318B4CC6194AD02D0093870F /* GuoQiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		318B4CB3194AD02D0093870F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315CADF4194B42E300A1AE78 /* hanguo.gif in Resources */,
+				315CADF1194B42E300A1AE78 /* deguo.gif in Resources */,
+				315CADF5194B42E300A1AE78 /* helan.gif in Resources */,
+				315CADFB194B42E300A1AE78 /* ydl.gif in Resources */,
+				315CADF3194B42E300A1AE78 /* flags.plist in Resources */,
+				318B4CC0194AD02D0093870F /* Main.storyboard in Resources */,
+				315CADF0194B42E300A1AE78 /* baxi.gif in Resources */,
+				315CADFD194B42E300A1AE78 /* zhongguo.jpg in Resources */,
+				315CADFA194B42E300A1AE78 /* xiby.gif in Resources */,
+				315CADFC194B42E300A1AE78 /* ying.gif in Resources */,
+				315CADF9194B42E300A1AE78 /* wlgui.gif in Resources */,
+				315CADF6194B42E300A1AE78 /* putaoya.gif in Resources */,
+				315CADF2194B42E300A1AE78 /* faguo.gif in Resources */,
+				318B4CC2194AD02D0093870F /* Images.xcassets in Resources */,
+				315CADEF194B42E300A1AE78 /* agt.gif in Resources */,
+				315CADF8194B42E300A1AE78 /* ruishi.gif in Resources */,
+				315CADF7194B42E300A1AE78 /* ruidian.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B4CC5194AD02D0093870F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318B4CB1194AD02D0093870F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318B4CBD194AD02D0093870F /* ViewController.swift in Sources */,
+				318B4CBB194AD02D0093870F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B4CC3194AD02D0093870F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318B4CCE194AD02D0093870F /* GuoQiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		318B4CC9194AD02D0093870F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318B4CB4194AD02D0093870F /* GuoQi */;
+			targetProxy = 318B4CC8194AD02D0093870F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		318B4CBE194AD02D0093870F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318B4CBF194AD02D0093870F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		318B4CCF194AD02D0093870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		318B4CD0194AD02D0093870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		318B4CD2194AD02D0093870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GuoQi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		318B4CD3194AD02D0093870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GuoQi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		318B4CD5194AD02D0093870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuoQi.app/GuoQi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuoQiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		318B4CD6194AD02D0093870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuoQi.app/GuoQi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuoQiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		318B4CB0194AD02D0093870F /* Build configuration list for PBXProject "GuoQi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318B4CCF194AD02D0093870F /* Debug */,
+				318B4CD0194AD02D0093870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318B4CD1194AD02D0093870F /* Build configuration list for PBXNativeTarget "GuoQi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318B4CD2194AD02D0093870F /* Debug */,
+				318B4CD3194AD02D0093870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318B4CD4194AD02D0093870F /* Build configuration list for PBXNativeTarget "GuoQiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318B4CD5194AD02D0093870F /* Debug */,
+				318B4CD6194AD02D0093870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 318B4CAD194AD02D0093870F /* Project object */;
+}

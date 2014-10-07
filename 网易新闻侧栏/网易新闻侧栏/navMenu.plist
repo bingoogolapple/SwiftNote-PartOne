@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageName</key>
+		<string>sidebar_nav_news.png</string>
+		<key>title</key>
+		<string>新闻</string>
+		<key>className</key>
+		<string>NewsViewController</string>
+	</dict>
+    <dict>
+		<key>imageName</key>
+		<string>sidebar_nav_reading.png</string>
+		<key>title</key>
+		<string>订阅</string>
+		<key>className</key>
+		<string>ReadingViewController</string>
+	</dict>
+    <dict>
+		<key>imageName</key>
+		<string>sidebar_nav_local.png</string>
+		<key>title</key>
+		<string>本地</string>
+		<key>className</key>
+		<string>LocalViewController</string>
+	</dict>
+    <dict>
+		<key>imageName</key>
+		<string>sidebar_nav_photo.png</string>
+		<key>title</key>
+		<string>照片</string>
+		<key>className</key>
+		<string>PhotoViewController</string>
+	</dict>
+</array>
+</plist>

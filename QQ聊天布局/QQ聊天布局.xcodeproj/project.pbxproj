@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3192C0C619D83FD600D5912B /* chatfrom_bg_focused.png in Resources */ = {isa = PBXBuildFile; fileRef = 3192C0BF19D83FD600D5912B /* chatfrom_bg_focused.png */; };
+		3192C0C719D83FD600D5912B /* chatfrom_bg_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3192C0C019D83FD600D5912B /* chatfrom_bg_normal.png */; };
+		3192C0C819D83FD600D5912B /* chatto_bg_focused.png in Resources */ = {isa = PBXBuildFile; fileRef = 3192C0C119D83FD600D5912B /* chatto_bg_focused.png */; };
+		3192C0C919D83FD600D5912B /* chatto_bg_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3192C0C219D83FD600D5912B /* chatto_bg_normal.png */; };
+		3192C0CA19D83FD600D5912B /* her.png in Resources */ = {isa = PBXBuildFile; fileRef = 3192C0C319D83FD600D5912B /* her.png */; };
+		3192C0CB19D83FD600D5912B /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 3192C0C419D83FD600D5912B /* me.png */; };
+		3192C0CC19D83FD600D5912B /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3192C0C519D83FD600D5912B /* messages.plist */; };
+		31F5054E19D6586F00802974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5054D19D6586F00802974 /* AppDelegate.swift */; };
+		31F5055019D6586F00802974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5054F19D6586F00802974 /* ViewController.swift */; };
+		31F5055519D6586F00802974 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F5055419D6586F00802974 /* Images.xcassets */; };
+		31F5055819D6586F00802974 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31F5055619D6586F00802974 /* LaunchScreen.xib */; };
+		31F5056419D6586F00802974 /* QQ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5056319D6586F00802974 /* QQ____Tests.swift */; };
+		31F5057C19D6598800802974 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5057B19D6598800802974 /* ChatCell.swift */; };
+		31F5057E19D65E8800802974 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5057D19D65E8800802974 /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31F5055E19D6586F00802974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31F5054019D6586F00802974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31F5054719D6586F00802974;
+			remoteInfo = "QQ聊天布局";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3192C0BF19D83FD600D5912B /* chatfrom_bg_focused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatfrom_bg_focused.png; sourceTree = "<group>"; };
+		3192C0C019D83FD600D5912B /* chatfrom_bg_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatfrom_bg_normal.png; sourceTree = "<group>"; };
+		3192C0C119D83FD600D5912B /* chatto_bg_focused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatto_bg_focused.png; sourceTree = "<group>"; };
+		3192C0C219D83FD600D5912B /* chatto_bg_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatto_bg_normal.png; sourceTree = "<group>"; };
+		3192C0C319D83FD600D5912B /* her.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = her.png; sourceTree = "<group>"; };
+		3192C0C419D83FD600D5912B /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		3192C0C519D83FD600D5912B /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		31F5054819D6586F00802974 /* QQ聊天布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ聊天布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F5054C19D6586F00802974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F5054D19D6586F00802974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31F5054F19D6586F00802974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31F5055419D6586F00802974 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31F5055719D6586F00802974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		31F5055D19D6586F00802974 /* QQ聊天布局Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ聊天布局Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F5056219D6586F00802974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F5056319D6586F00802974 /* QQ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QQ____Tests.swift"; sourceTree = "<group>"; };
+		31F5057B19D6598800802974 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		31F5057D19D65E8800802974 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F5054519D6586F00802974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F5055A19D6586F00802974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31F5053F19D6586F00802974 = {
+			isa = PBXGroup;
+			children = (
+				31F5054A19D6586F00802974 /* QQ聊天布局 */,
+				31F5056019D6586F00802974 /* QQ聊天布局Tests */,
+				31F5054919D6586F00802974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31F5054919D6586F00802974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31F5054819D6586F00802974 /* QQ聊天布局.app */,
+				31F5055D19D6586F00802974 /* QQ聊天布局Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F5054A19D6586F00802974 /* QQ聊天布局 */ = {
+			isa = PBXGroup;
+			children = (
+				31F5054D19D6586F00802974 /* AppDelegate.swift */,
+				31F5054F19D6586F00802974 /* ViewController.swift */,
+				31F5057B19D6598800802974 /* ChatCell.swift */,
+				31F5057D19D65E8800802974 /* Message.swift */,
+				31F5055419D6586F00802974 /* Images.xcassets */,
+				31F5055619D6586F00802974 /* LaunchScreen.xib */,
+				31F5054B19D6586F00802974 /* Supporting Files */,
+			);
+			path = "QQ聊天布局";
+			sourceTree = "<group>";
+		};
+		31F5054B19D6586F00802974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3192C0BF19D83FD600D5912B /* chatfrom_bg_focused.png */,
+				3192C0C019D83FD600D5912B /* chatfrom_bg_normal.png */,
+				3192C0C119D83FD600D5912B /* chatto_bg_focused.png */,
+				3192C0C219D83FD600D5912B /* chatto_bg_normal.png */,
+				3192C0C319D83FD600D5912B /* her.png */,
+				3192C0C419D83FD600D5912B /* me.png */,
+				3192C0C519D83FD600D5912B /* messages.plist */,
+				31F5054C19D6586F00802974 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31F5056019D6586F00802974 /* QQ聊天布局Tests */ = {
+			isa = PBXGroup;
+			children = (
+				31F5056319D6586F00802974 /* QQ____Tests.swift */,
+				31F5056119D6586F00802974 /* Supporting Files */,
+			);
+			path = "QQ聊天布局Tests";
+			sourceTree = "<group>";
+		};
+		31F5056119D6586F00802974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31F5056219D6586F00802974 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31F5054719D6586F00802974 /* QQ聊天布局 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F5056719D6586F00802974 /* Build configuration list for PBXNativeTarget "QQ聊天布局" */;
+			buildPhases = (
+				31F5054419D6586F00802974 /* Sources */,
+				31F5054519D6586F00802974 /* Frameworks */,
+				31F5054619D6586F00802974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ聊天布局";
+			productName = "QQ聊天布局";
+			productReference = 31F5054819D6586F00802974 /* QQ聊天布局.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31F5055C19D6586F00802974 /* QQ聊天布局Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F5056A19D6586F00802974 /* Build configuration list for PBXNativeTarget "QQ聊天布局Tests" */;
+			buildPhases = (
+				31F5055919D6586F00802974 /* Sources */,
+				31F5055A19D6586F00802974 /* Frameworks */,
+				31F5055B19D6586F00802974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31F5055F19D6586F00802974 /* PBXTargetDependency */,
+			);
+			name = "QQ聊天布局Tests";
+			productName = "QQ聊天布局Tests";
+			productReference = 31F5055D19D6586F00802974 /* QQ聊天布局Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31F5054019D6586F00802974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = bingoogol;
+				TargetAttributes = {
+					31F5054719D6586F00802974 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					31F5055C19D6586F00802974 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 31F5054719D6586F00802974;
+					};
+				};
+			};
+			buildConfigurationList = 31F5054319D6586F00802974 /* Build configuration list for PBXProject "QQ聊天布局" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31F5053F19D6586F00802974;
+			productRefGroup = 31F5054919D6586F00802974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31F5054719D6586F00802974 /* QQ聊天布局 */,
+				31F5055C19D6586F00802974 /* QQ聊天布局Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31F5054619D6586F00802974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3192C0C919D83FD600D5912B /* chatto_bg_normal.png in Resources */,
+				3192C0C619D83FD600D5912B /* chatfrom_bg_focused.png in Resources */,
+				3192C0CA19D83FD600D5912B /* her.png in Resources */,
+				3192C0CB19D83FD600D5912B /* me.png in Resources */,
+				3192C0C719D83FD600D5912B /* chatfrom_bg_normal.png in Resources */,
+				3192C0CC19D83FD600D5912B /* messages.plist in Resources */,
+				31F5055819D6586F00802974 /* LaunchScreen.xib in Resources */,
+				31F5055519D6586F00802974 /* Images.xcassets in Resources */,
+				3192C0C819D83FD600D5912B /* chatto_bg_focused.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F5055B19D6586F00802974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31F5054419D6586F00802974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F5055019D6586F00802974 /* ViewController.swift in Sources */,
+				31F5057E19D65E8800802974 /* Message.swift in Sources */,
+				31F5054E19D6586F00802974 /* AppDelegate.swift in Sources */,
+				31F5057C19D6598800802974 /* ChatCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F5055919D6586F00802974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F5056419D6586F00802974 /* QQ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31F5055F19D6586F00802974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31F5054719D6586F00802974 /* QQ聊天布局 */;
+			targetProxy = 31F5055E19D6586F00802974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31F5055619D6586F00802974 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F5055719D6586F00802974 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31F5056519D6586F00802974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31F5056619D6586F00802974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31F5056819D6586F00802974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QQ聊天布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31F5056919D6586F00802974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QQ聊天布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31F5056B19D6586F00802974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQ聊天布局Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ聊天布局.app/QQ聊天布局";
+			};
+			name = Debug;
+		};
+		31F5056C19D6586F00802974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQ聊天布局Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ聊天布局.app/QQ聊天布局";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31F5054319D6586F00802974 /* Build configuration list for PBXProject "QQ聊天布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F5056519D6586F00802974 /* Debug */,
+				31F5056619D6586F00802974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F5056719D6586F00802974 /* Build configuration list for PBXNativeTarget "QQ聊天布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F5056819D6586F00802974 /* Debug */,
+				31F5056919D6586F00802974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F5056A19D6586F00802974 /* Build configuration list for PBXNativeTarget "QQ聊天布局Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F5056B19D6586F00802974 /* Debug */,
+				31F5056C19D6586F00802974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31F5054019D6586F00802974 /* Project object */;
+}

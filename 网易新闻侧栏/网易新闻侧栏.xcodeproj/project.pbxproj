@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314F90B319E2860E00D3E084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90B219E2860E00D3E084 /* AppDelegate.swift */; };
+		314F90B519E2860E00D3E084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90B419E2860E00D3E084 /* ViewController.swift */; };
+		314F90B819E2860E00D3E084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314F90B619E2860E00D3E084 /* Main.storyboard */; };
+		314F90BA19E2860E00D3E084 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314F90B919E2860E00D3E084 /* Images.xcassets */; };
+		314F90BD19E2860E00D3E084 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 314F90BB19E2860E00D3E084 /* LaunchScreen.xib */; };
+		314F90C919E2860F00D3E084 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90C819E2860F00D3E084 /* ______Tests.swift */; };
+		314F90D419E28D5400D3E084 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90D219E28D5400D3E084 /* RightViewController.swift */; };
+		314F90D719E29A6900D3E084 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90D619E29A6900D3E084 /* LeftViewController.swift */; };
+		314F90E219E29CA300D3E084 /* navMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 314F90D819E29CA300D3E084 /* navMenu.plist */; };
+		314F90E319E29CA300D3E084 /* night_user_defaulthead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90D919E29CA300D3E084 /* night_user_defaulthead@2x.png */; };
+		314F90E419E29CA300D3E084 /* sidebar_nav_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90DA19E29CA300D3E084 /* sidebar_nav_comment@2x.png */; };
+		314F90E519E29CA300D3E084 /* sidebar_nav_focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90DB19E29CA300D3E084 /* sidebar_nav_focus@2x.png */; };
+		314F90E619E29CA300D3E084 /* sidebar_nav_local@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90DC19E29CA300D3E084 /* sidebar_nav_local@2x.png */; };
+		314F90E719E29CA300D3E084 /* sidebar_nav_news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90DD19E29CA300D3E084 /* sidebar_nav_news@2x.png */; };
+		314F90E819E29CA300D3E084 /* sidebar_nav_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90DE19E29CA300D3E084 /* sidebar_nav_photo@2x.png */; };
+		314F90E919E29CA300D3E084 /* sidebar_nav_reading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90DF19E29CA300D3E084 /* sidebar_nav_reading@2x.png */; };
+		314F90EA19E29CA300D3E084 /* sidebar_nav_topic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90E019E29CA300D3E084 /* sidebar_nav_topic@2x.png */; };
+		314F90EB19E29CA300D3E084 /* sidebar_nav_vote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 314F90E119E29CA300D3E084 /* sidebar_nav_vote@2x.png */; };
+		314F90ED19E29D9F00D3E084 /* LeftMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90EC19E29D9F00D3E084 /* LeftMenu.swift */; };
+		314F90EF19E2AA3C00D3E084 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90EE19E2AA3C00D3E084 /* NewsViewController.swift */; };
+		314F90F119E2AA4900D3E084 /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90F019E2AA4900D3E084 /* LocalViewController.swift */; };
+		314F90F319E2AA5500D3E084 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90F219E2AA5500D3E084 /* PhotoViewController.swift */; };
+		314F90F519E2AA6600D3E084 /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F90F419E2AA6600D3E084 /* ReadingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314F90C319E2860E00D3E084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314F90A519E2860E00D3E084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314F90AC19E2860E00D3E084;
+			remoteInfo = "网易新闻侧栏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		314F90AD19E2860E00D3E084 /* 网易新闻侧栏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易新闻侧栏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		314F90B119E2860E00D3E084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314F90B219E2860E00D3E084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		314F90B419E2860E00D3E084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		314F90B719E2860E00D3E084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		314F90B919E2860E00D3E084 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		314F90BC19E2860E00D3E084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		314F90C219E2860E00D3E084 /* 网易新闻侧栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易新闻侧栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		314F90C719E2860F00D3E084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314F90C819E2860F00D3E084 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		314F90D219E28D5400D3E084 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		314F90D619E29A6900D3E084 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		314F90D819E29CA300D3E084 /* navMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = navMenu.plist; sourceTree = "<group>"; };
+		314F90D919E29CA300D3E084 /* night_user_defaulthead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_user_defaulthead@2x.png"; sourceTree = "<group>"; };
+		314F90DA19E29CA300D3E084 /* sidebar_nav_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_nav_comment@2x.png"; sourceTree = "<group>"; };
+		314F90DB19E29CA300D3E084 /* sidebar_nav_focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_nav_focus@2x.png"; sourceTree = "<group>"; };
+		314F90DC19E29CA300D3E084 /* sidebar_nav_local@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_nav_local@2x.png"; sourceTree = "<group>"; };
+		314F90DD19E29CA300D3E084 /* sidebar_nav_news@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_nav_news@2x.png"; sourceTree = "<group>"; };
+		314F90DE19E29CA300D3E084 /* sidebar_nav_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_nav_photo@2x.png"; sourceTree = "<group>"; };
+		314F90DF19E29CA300D3E084 /* sidebar_nav_reading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_nav_reading@2x.png"; sourceTree = "<group>"; };
+		314F90E019E29CA300D3E084 /* sidebar_nav_topic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_nav_topic@2x.png"; sourceTree = "<group>"; };
+		314F90E119E29CA300D3E084 /* sidebar_nav_vote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_nav_vote@2x.png"; sourceTree = "<group>"; };
+		314F90EC19E29D9F00D3E084 /* LeftMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenu.swift; sourceTree = "<group>"; };
+		314F90EE19E2AA3C00D3E084 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		314F90F019E2AA4900D3E084 /* LocalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
+		314F90F219E2AA5500D3E084 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		314F90F419E2AA6600D3E084 /* ReadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314F90AA19E2860E00D3E084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F90BF19E2860E00D3E084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314F90A419E2860E00D3E084 = {
+			isa = PBXGroup;
+			children = (
+				314F90AF19E2860E00D3E084 /* 网易新闻侧栏 */,
+				314F90C519E2860E00D3E084 /* 网易新闻侧栏Tests */,
+				314F90AE19E2860E00D3E084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		314F90AE19E2860E00D3E084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314F90AD19E2860E00D3E084 /* 网易新闻侧栏.app */,
+				314F90C219E2860E00D3E084 /* 网易新闻侧栏Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314F90AF19E2860E00D3E084 /* 网易新闻侧栏 */ = {
+			isa = PBXGroup;
+			children = (
+				314F90B219E2860E00D3E084 /* AppDelegate.swift */,
+				314F90B419E2860E00D3E084 /* ViewController.swift */,
+				314F90EC19E29D9F00D3E084 /* LeftMenu.swift */,
+				314F90D619E29A6900D3E084 /* LeftViewController.swift */,
+				314F90D219E28D5400D3E084 /* RightViewController.swift */,
+				314F90F619E2AB1400D3E084 /* 新闻视图控制器 */,
+				314F90B619E2860E00D3E084 /* Main.storyboard */,
+				314F90B919E2860E00D3E084 /* Images.xcassets */,
+				314F90BB19E2860E00D3E084 /* LaunchScreen.xib */,
+				314F90B019E2860E00D3E084 /* Supporting Files */,
+			);
+			path = "网易新闻侧栏";
+			sourceTree = "<group>";
+		};
+		314F90B019E2860E00D3E084 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				314F90D819E29CA300D3E084 /* navMenu.plist */,
+				314F90D919E29CA300D3E084 /* night_user_defaulthead@2x.png */,
+				314F90DA19E29CA300D3E084 /* sidebar_nav_comment@2x.png */,
+				314F90DB19E29CA300D3E084 /* sidebar_nav_focus@2x.png */,
+				314F90DC19E29CA300D3E084 /* sidebar_nav_local@2x.png */,
+				314F90DD19E29CA300D3E084 /* sidebar_nav_news@2x.png */,
+				314F90DE19E29CA300D3E084 /* sidebar_nav_photo@2x.png */,
+				314F90DF19E29CA300D3E084 /* sidebar_nav_reading@2x.png */,
+				314F90E019E29CA300D3E084 /* sidebar_nav_topic@2x.png */,
+				314F90E119E29CA300D3E084 /* sidebar_nav_vote@2x.png */,
+				314F90B119E2860E00D3E084 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		314F90C519E2860E00D3E084 /* 网易新闻侧栏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				314F90C819E2860F00D3E084 /* ______Tests.swift */,
+				314F90C619E2860F00D3E084 /* Supporting Files */,
+			);
+			path = "网易新闻侧栏Tests";
+			sourceTree = "<group>";
+		};
+		314F90C619E2860F00D3E084 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				314F90C719E2860F00D3E084 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		314F90F619E2AB1400D3E084 /* 新闻视图控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				314F90EE19E2AA3C00D3E084 /* NewsViewController.swift */,
+				314F90F019E2AA4900D3E084 /* LocalViewController.swift */,
+				314F90F219E2AA5500D3E084 /* PhotoViewController.swift */,
+				314F90F419E2AA6600D3E084 /* ReadingViewController.swift */,
+			);
+			name = "新闻视图控制器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314F90AC19E2860E00D3E084 /* 网易新闻侧栏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314F90CC19E2860F00D3E084 /* Build configuration list for PBXNativeTarget "网易新闻侧栏" */;
+			buildPhases = (
+				314F90A919E2860E00D3E084 /* Sources */,
+				314F90AA19E2860E00D3E084 /* Frameworks */,
+				314F90AB19E2860E00D3E084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易新闻侧栏";
+			productName = "网易新闻侧栏";
+			productReference = 314F90AD19E2860E00D3E084 /* 网易新闻侧栏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		314F90C119E2860E00D3E084 /* 网易新闻侧栏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314F90CF19E2860F00D3E084 /* Build configuration list for PBXNativeTarget "网易新闻侧栏Tests" */;
+			buildPhases = (
+				314F90BE19E2860E00D3E084 /* Sources */,
+				314F90BF19E2860E00D3E084 /* Frameworks */,
+				314F90C019E2860E00D3E084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314F90C419E2860E00D3E084 /* PBXTargetDependency */,
+			);
+			name = "网易新闻侧栏Tests";
+			productName = "网易新闻侧栏Tests";
+			productReference = 314F90C219E2860E00D3E084 /* 网易新闻侧栏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314F90A519E2860E00D3E084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = bingoogol;
+				TargetAttributes = {
+					314F90AC19E2860E00D3E084 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					314F90C119E2860E00D3E084 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 314F90AC19E2860E00D3E084;
+					};
+				};
+			};
+			buildConfigurationList = 314F90A819E2860E00D3E084 /* Build configuration list for PBXProject "网易新闻侧栏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 314F90A419E2860E00D3E084;
+			productRefGroup = 314F90AE19E2860E00D3E084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314F90AC19E2860E00D3E084 /* 网易新闻侧栏 */,
+				314F90C119E2860E00D3E084 /* 网易新闻侧栏Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314F90AB19E2860E00D3E084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F90E719E29CA300D3E084 /* sidebar_nav_news@2x.png in Resources */,
+				314F90B819E2860E00D3E084 /* Main.storyboard in Resources */,
+				314F90E319E29CA300D3E084 /* night_user_defaulthead@2x.png in Resources */,
+				314F90E519E29CA300D3E084 /* sidebar_nav_focus@2x.png in Resources */,
+				314F90E219E29CA300D3E084 /* navMenu.plist in Resources */,
+				314F90EA19E29CA300D3E084 /* sidebar_nav_topic@2x.png in Resources */,
+				314F90EB19E29CA300D3E084 /* sidebar_nav_vote@2x.png in Resources */,
+				314F90E419E29CA300D3E084 /* sidebar_nav_comment@2x.png in Resources */,
+				314F90E819E29CA300D3E084 /* sidebar_nav_photo@2x.png in Resources */,
+				314F90E919E29CA300D3E084 /* sidebar_nav_reading@2x.png in Resources */,
+				314F90E619E29CA300D3E084 /* sidebar_nav_local@2x.png in Resources */,
+				314F90BD19E2860E00D3E084 /* LaunchScreen.xib in Resources */,
+				314F90BA19E2860E00D3E084 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F90C019E2860E00D3E084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314F90A919E2860E00D3E084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F90B519E2860E00D3E084 /* ViewController.swift in Sources */,
+				314F90D719E29A6900D3E084 /* LeftViewController.swift in Sources */,
+				314F90B319E2860E00D3E084 /* AppDelegate.swift in Sources */,
+				314F90EF19E2AA3C00D3E084 /* NewsViewController.swift in Sources */,
+				314F90F119E2AA4900D3E084 /* LocalViewController.swift in Sources */,
+				314F90F519E2AA6600D3E084 /* ReadingViewController.swift in Sources */,
+				314F90F319E2AA5500D3E084 /* PhotoViewController.swift in Sources */,
+				314F90D419E28D5400D3E084 /* RightViewController.swift in Sources */,
+				314F90ED19E29D9F00D3E084 /* LeftMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F90BE19E2860E00D3E084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F90C919E2860F00D3E084 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314F90C419E2860E00D3E084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314F90AC19E2860E00D3E084 /* 网易新闻侧栏 */;
+			targetProxy = 314F90C319E2860E00D3E084 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		314F90B619E2860E00D3E084 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314F90B719E2860E00D3E084 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		314F90BB19E2860E00D3E084 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314F90BC19E2860E00D3E084 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		314F90CA19E2860F00D3E084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		314F90CB19E2860F00D3E084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		314F90CD19E2860F00D3E084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易新闻侧栏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		314F90CE19E2860F00D3E084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易新闻侧栏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		314F90D019E2860F00D3E084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "网易新闻侧栏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网易新闻侧栏.app/网易新闻侧栏";
+			};
+			name = Debug;
+		};
+		314F90D119E2860F00D3E084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "网易新闻侧栏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网易新闻侧栏.app/网易新闻侧栏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314F90A819E2860E00D3E084 /* Build configuration list for PBXProject "网易新闻侧栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F90CA19E2860F00D3E084 /* Debug */,
+				314F90CB19E2860F00D3E084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314F90CC19E2860F00D3E084 /* Build configuration list for PBXNativeTarget "网易新闻侧栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F90CD19E2860F00D3E084 /* Debug */,
+				314F90CE19E2860F00D3E084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		314F90CF19E2860F00D3E084 /* Build configuration list for PBXNativeTarget "网易新闻侧栏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F90D019E2860F00D3E084 /* Debug */,
+				314F90D119E2860F00D3E084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314F90A519E2860E00D3E084 /* Project object */;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>headline_ad</key>
+	<array>
+		<dict>
+			<key>imgsrc</key>
+			<string>http://img1.cache.netease.com/3g/2013/9/15/20130915071447a5c9d.jpg</string>
+			<key>subtitle</key>
+			<string></string>
+			<key>tag</key>
+			<string>photoset</string>
+			<key>title</key>
+			<string>美国现罕见超级"雷雨胞" 似飞碟</string>
+			<key>url</key>
+			<string>00AO0001|38050</string>
+		</dict>
+		<dict>
+			<key>imgsrc</key>
+			<string>http://img2.cache.netease.com/3g/2013/9/15/20130915074942701c9.jpg</string>
+			<key>subtitle</key>
+			<string></string>
+			<key>tag</key>
+			<string>photoset</string>
+			<key>title</key>
+			<string>解放军新兵与傣妹婀娜起舞</string>
+			<key>url</key>
+			<string>54GI0096|29000</string>
+		</dict>
+		<dict>
+			<key>imgsrc</key>
+			<string>http://img2.cache.netease.com/3g/2013/9/14/201309141143069b2e3.jpg</string>
+			<key>subtitle</key>
+			<string></string>
+			<key>tag</key>
+			<string>photoset</string>
+			<key>title</key>
+			<string>一周外媒动物图片精选</string>
+			<key>url</key>
+			<string>54GJ0096|28975</string>
+		</dict>
+		<dict>
+			<key>imgsrc</key>
+			<string>http://img2.cache.netease.com/3g/2013/9/13/2013091319182813460.jpg</string>
+			<key>subtitle</key>
+			<string></string>
+			<key>tag</key>
+			<string>photoset</string>
+			<key>title</key>
+			<string>图片故事：中国赌核人</string>
+			<key>url</key>
+			<string>54GI0096|28951</string>
+		</dict>
+	</array>
+</dict>
+</plist>

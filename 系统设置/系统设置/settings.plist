@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>蓝牙</string>
+			<key>detail</key>
+			<string>关闭</string>
+			<key>id</key>
+			<string>bluetooth</string>
+		</dict>
+	</array>
+    <array>
+        <dict>
+            <key>name</key>
+            <string>通用</string>
+            <key>id</key>
+            <string>normal</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>隐私</string>
+            <key>id</key>
+            <string>private</string>
+        </dict>
+    </array>
+</array>
+</plist>

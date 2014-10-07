@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>关于本机</string>
+                <key>id</key>
+                <string>bluetooth</string>
+            </dict>
+        </array>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>键盘</string>
+                <key>hasSwitch</key>
+                <true/>
+                <key>switchValue</key>
+                <true/>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>多语言环境</string>
+                <key>id</key>
+                <string>private</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>辅助功能</string>
+                <key>hasSwitch</key>
+                <true/>
+                <key>switchValue</key>
+                <false/>
+            </dict>
+        </array>
+    </array>
+</plist>

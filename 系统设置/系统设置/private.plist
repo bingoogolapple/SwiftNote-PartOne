@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>位置</string>
+                <key>id</key>
+                <string>bluetooth</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>通讯录</string>
+                <key>id</key>
+                <string>bluetooth</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>日历</string>
+                <key>id</key>
+                <string>bluetooth</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>提醒事项</string>
+                <key>id</key>
+                <string>bluetooth</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>照片</string>
+                <key>id</key>
+                <string>bluetooth</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>蓝牙共享</string>
+                <key>id</key>
+                <string>bluetooth</string>
+            </dict>
+        </array>
+    </array>
+</plist>

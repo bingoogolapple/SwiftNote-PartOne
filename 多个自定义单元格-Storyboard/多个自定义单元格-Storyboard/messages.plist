@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>content</key>
+		<string>哥，问你一个问题</string>
+		<key>fromSelf</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>说</string>
+		<key>fromSelf</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>为什么两点之间直线最短啊？</string>
+		<key>fromSelf</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>这个简单啊</string>
+		<key>fromSelf</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>你丢一块骨头出去，你说狗是绕个圈去捡还是直接跑过去捡呢？</string>
+		<key>fromSelf</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>当然是直接跑过去捡了！</string>
+		<key>fromSelf</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>连狗都知道的问题你还问？</string>
+		<key>fromSelf</key>
+		<true/>
+	</dict>
+</array>
+</plist>

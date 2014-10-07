@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="EQF-iZ-duE">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="C1X-yc-AJR">
+            <objects>
+                <viewController id="QfM-3w-mtz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eXg-jN-qmB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.39220393219999999" green="1" blue="0.49825568660000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="yJD-RP-BPb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pXt-4r-xfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="132"/>
+        </scene>
+        <!--Item3-->
+        <scene sceneID="DBq-at-VZm">
+            <objects>
+                <viewController id="vTe-hF-kuH" userLabel="Item3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aNg-0u-fsO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="第三项" image="tab3.png" badgeValue="10" id="nzd-Kj-dgO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MxY-UH-mn8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="329" y="760"/>
+        </scene>
+        <!--Item4-->
+        <scene sceneID="jg8-K8-Ub6">
+            <objects>
+                <viewController id="Xvh-SO-POl" userLabel="Item4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bKW-Pl-3S1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.54303892549999999" blue="0.095571067950000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="更多" image="tab4.png" id="wC4-pe-0KR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Wm-U5-kE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="318" y="1428"/>
+        </scene>
+        <!--第一项-->
+        <scene sceneID="jcK-zH-bD9">
+            <objects>
+                <viewController id="2EZ-zf-mCW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bWA-vT-EOV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.068581810940000001" blue="0.1099512216" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="第一项" image="tab1.png" id="2GE-s2-OJS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8Y-78-zWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="-500"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="c93-dH-za0">
+            <objects>
+                <tabBarController id="EQF-iZ-duE" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="6Zs-iI-feA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2EZ-zf-mCW" kind="relationship" relationship="viewControllers" id="Ven-9O-USN"/>
+                        <segue destination="QfM-3w-mtz" kind="relationship" relationship="viewControllers" id="Kfg-hP-Wl1"/>
+                        <segue destination="vTe-hF-kuH" kind="relationship" relationship="viewControllers" id="X0p-Vt-OJJ"/>
+                        <segue destination="Xvh-SO-POl" kind="relationship" relationship="viewControllers" id="8iE-8B-3fc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ngw-Qh-23v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-122.66666666666667" y="314.29333333333335"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab1.png" width="23" height="24"/>
+        <image name="tab3.png" width="23" height="24"/>
+        <image name="tab4.png" width="23" height="24"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

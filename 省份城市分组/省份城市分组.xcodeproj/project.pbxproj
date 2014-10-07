@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		317C495619CF058B007D67A4 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 317C495519CF058B007D67A4 /* pinyin.c */; };
+		318A300E19CECC6C00A7B432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A300D19CECC6C00A7B432 /* AppDelegate.swift */; };
+		318A301019CECC6C00A7B432 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318A300F19CECC6C00A7B432 /* Images.xcassets */; };
+		318A301C19CECC6C00A7B432 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A301B19CECC6C00A7B432 /* ______Tests.swift */; };
+		318A302619CECC8700A7B432 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A302519CECC8700A7B432 /* MainViewController.swift */; };
+		31D501FB19CED379004CF97B /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31D501FA19CED379004CF97B /* cities.plist */; };
+		31D501FD19CEE4D3004CF97B /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D501FC19CEE4D3004CF97B /* Province.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		318A301619CECC6C00A7B432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318A300019CECC6C00A7B432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318A300719CECC6C00A7B432;
+			remoteInfo = "省份城市分组";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		317C495319CF058A007D67A4 /* 省份城市分组-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "省份城市分组-Bridging-Header.h"; sourceTree = "<group>"; };
+		317C495419CF058B007D67A4 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pinyin.h; path = ../../../../../Desktop/pinyin.h; sourceTree = "<group>"; };
+		317C495519CF058B007D67A4 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pinyin.c; path = ../../../../../Desktop/pinyin.c; sourceTree = "<group>"; };
+		318A300819CECC6C00A7B432 /* 省份城市分组.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "省份城市分组.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318A300C19CECC6C00A7B432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318A300D19CECC6C00A7B432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		318A300F19CECC6C00A7B432 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		318A301519CECC6C00A7B432 /* 省份城市分组Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "省份城市分组Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318A301A19CECC6C00A7B432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318A301B19CECC6C00A7B432 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		318A302519CECC8700A7B432 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		31D501FA19CED379004CF97B /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		31D501FC19CEE4D3004CF97B /* Province.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318A300519CECC6C00A7B432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318A301219CECC6C00A7B432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318A2FFF19CECC6C00A7B432 = {
+			isa = PBXGroup;
+			children = (
+				318A300A19CECC6C00A7B432 /* 省份城市分组 */,
+				318A301819CECC6C00A7B432 /* 省份城市分组Tests */,
+				318A300919CECC6C00A7B432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		318A300919CECC6C00A7B432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318A300819CECC6C00A7B432 /* 省份城市分组.app */,
+				318A301519CECC6C00A7B432 /* 省份城市分组Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		318A300A19CECC6C00A7B432 /* 省份城市分组 */ = {
+			isa = PBXGroup;
+			children = (
+				317C495419CF058B007D67A4 /* pinyin.h */,
+				317C495519CF058B007D67A4 /* pinyin.c */,
+				318A300D19CECC6C00A7B432 /* AppDelegate.swift */,
+				318A302519CECC8700A7B432 /* MainViewController.swift */,
+				318A300F19CECC6C00A7B432 /* Images.xcassets */,
+				318A300B19CECC6C00A7B432 /* Supporting Files */,
+				31D501FC19CEE4D3004CF97B /* Province.swift */,
+				317C495319CF058A007D67A4 /* 省份城市分组-Bridging-Header.h */,
+			);
+			path = "省份城市分组";
+			sourceTree = "<group>";
+		};
+		318A300B19CECC6C00A7B432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31D501FA19CED379004CF97B /* cities.plist */,
+				318A300C19CECC6C00A7B432 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		318A301819CECC6C00A7B432 /* 省份城市分组Tests */ = {
+			isa = PBXGroup;
+			children = (
+				318A301B19CECC6C00A7B432 /* ______Tests.swift */,
+				318A301919CECC6C00A7B432 /* Supporting Files */,
+			);
+			path = "省份城市分组Tests";
+			sourceTree = "<group>";
+		};
+		318A301919CECC6C00A7B432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				318A301A19CECC6C00A7B432 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		318A300719CECC6C00A7B432 /* 省份城市分组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318A301F19CECC6C00A7B432 /* Build configuration list for PBXNativeTarget "省份城市分组" */;
+			buildPhases = (
+				318A300419CECC6C00A7B432 /* Sources */,
+				318A300519CECC6C00A7B432 /* Frameworks */,
+				318A300619CECC6C00A7B432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "省份城市分组";
+			productName = "省份城市分组";
+			productReference = 318A300819CECC6C00A7B432 /* 省份城市分组.app */;
+			productType = "com.apple.product-type.application";
+		};
+		318A301419CECC6C00A7B432 /* 省份城市分组Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318A302219CECC6C00A7B432 /* Build configuration list for PBXNativeTarget "省份城市分组Tests" */;
+			buildPhases = (
+				318A301119CECC6C00A7B432 /* Sources */,
+				318A301219CECC6C00A7B432 /* Frameworks */,
+				318A301319CECC6C00A7B432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318A301719CECC6C00A7B432 /* PBXTargetDependency */,
+			);
+			name = "省份城市分组Tests";
+			productName = "省份城市分组Tests";
+			productReference = 318A301519CECC6C00A7B432 /* 省份城市分组Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		318A300019CECC6C00A7B432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = bingoogol;
+				TargetAttributes = {
+					318A300719CECC6C00A7B432 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					318A301419CECC6C00A7B432 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 318A300719CECC6C00A7B432;
+					};
+				};
+			};
+			buildConfigurationList = 318A300319CECC6C00A7B432 /* Build configuration list for PBXProject "省份城市分组" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 318A2FFF19CECC6C00A7B432;
+			productRefGroup = 318A300919CECC6C00A7B432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				318A300719CECC6C00A7B432 /* 省份城市分组 */,
+				318A301419CECC6C00A7B432 /* 省份城市分组Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		318A300619CECC6C00A7B432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318A301019CECC6C00A7B432 /* Images.xcassets in Resources */,
+				31D501FB19CED379004CF97B /* cities.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318A301319CECC6C00A7B432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318A300419CECC6C00A7B432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317C495619CF058B007D67A4 /* pinyin.c in Sources */,
+				31D501FD19CEE4D3004CF97B /* Province.swift in Sources */,
+				318A300E19CECC6C00A7B432 /* AppDelegate.swift in Sources */,
+				318A302619CECC8700A7B432 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318A301119CECC6C00A7B432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318A301C19CECC6C00A7B432 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		318A301719CECC6C00A7B432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318A300719CECC6C00A7B432 /* 省份城市分组 */;
+			targetProxy = 318A301619CECC6C00A7B432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		318A301D19CECC6C00A7B432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		318A301E19CECC6C00A7B432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		318A302019CECC6C00A7B432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "省份城市分组/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "省份城市分组/省份城市分组-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		318A302119CECC6C00A7B432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "省份城市分组/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "省份城市分组/省份城市分组-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		318A302319CECC6C00A7B432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "省份城市分组Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/省份城市分组.app/省份城市分组";
+			};
+			name = Debug;
+		};
+		318A302419CECC6C00A7B432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "省份城市分组Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/省份城市分组.app/省份城市分组";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		318A300319CECC6C00A7B432 /* Build configuration list for PBXProject "省份城市分组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318A301D19CECC6C00A7B432 /* Debug */,
+				318A301E19CECC6C00A7B432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318A301F19CECC6C00A7B432 /* Build configuration list for PBXNativeTarget "省份城市分组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318A302019CECC6C00A7B432 /* Debug */,
+				318A302119CECC6C00A7B432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318A302219CECC6C00A7B432 /* Build configuration list for PBXNativeTarget "省份城市分组Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318A302319CECC6C00A7B432 /* Debug */,
+				318A302419CECC6C00A7B432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 318A300019CECC6C00A7B432 /* Project object */;
+}
