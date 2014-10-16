@@ -18,6 +18,47 @@ func demo1() {
     println("id=\(id),name=\(name),address=\(address)")
 }
 
+struct Stack<T> {
+    var items = [T]()
+    mutating func push(item: T) {
+        items.append(item)
+    }
+    
+    mutating func pop() -> T {
+        return items.removeLast()
+    }
+}
+
+// 为了能够在实例方法中修改属性值，可以在方法定义前添加关键字 mutating
+struct Point {
+    var x = 0, y = 0
+    
+    mutating func moveXBy(x:Int,yBy y:Int) {
+        self.x += x
+        self.y += y
+    }
+}
+var p = Point(x: 5, y: 5)
+p.moveXBy(3, yBy: 3)
+
+//另外，在值类型的实例方法中，也可以直接修改self属性值。
+enum TriStateSwitch {
+    case Off, Low, High
+    mutating func next() {
+        switch self {
+        case Off:
+            self = Low
+        case Low:
+            self = High
+        case High:
+            self = Off
+        }
+    }
+}
+var ovenLight = TriStateSwitch.Low
+ovenLight.next()
+ovenLight.next()
+
 
 // 类型
 func demo2() {
@@ -570,7 +611,33 @@ func demo23() {
     var text = "hello"
     println(predicate.evaluateWithObject(text))
 }
-demo23()
+
+// 泛型
+func swapValue<T>(inout a:T,inout b:T) {
+    let temp = a
+    a = b
+    b = temp
+}
+
+class ClassA<T> {
+    func getValue(value:T) {
+        println(value)
+    }
+}
+
+func demo24() {
+    var a = 12
+    var b = 13
+    swapValue(&a, &b)
+    println("a = \(a)   b=\(b)")
+    var s1 = "123"
+    var s2 = "321"
+    swapValue(&s1, &s2)
+    println("s1 = \(s1)   s2=\(s2)")
+}
+
+
+demo24()
 
 
 
