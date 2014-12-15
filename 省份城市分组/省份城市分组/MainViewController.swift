@@ -73,9 +73,9 @@ class MainViewController: UITableViewController {
         var cityArray = provinceDict[province.name] as NSArray
         
         
-        cell?.textLabel?.text = cityArray[indexPath.row] as NSString
+        cell.textLabel?.text = cityArray[indexPath.row] as NSString
         
-        return cell!
+        return cell
     }
     
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
