@@ -10,13 +10,30 @@ import Foundation
 
 // 字符串
 func demo1() {
+    // var声明常量
     var name = "王浩"
     name = name + "bingo"
     name = name + "\(100)"
-    var id = 50
-    var address:String = "重庆市"
-    println("id=\(id),name=\(name),address=\(address)")
+    // let声明变量
+    let id = 50
+    let address:String = "重庆市"
+    print("id=\(id),name=\(name),address=\(address)")
+    // 按住option光标移到变量上，显示？时点击就可以看见变量的类型
+    
+    let x = 1, y = 2, z = 3, b = true
+    print(x, y, z, b, separator:"-")
+    print("hello")
+    
+    // 默认的结束符是回车
+    print(x, y, z, b, separator:"-", terminator:"我是结束符")
+    print("hello")
+    
+    
+    print(x, "*", y, "=", x * y)
 }
+
+//demo1()
+
 
 struct Stack<T> {
     var items = [T]()
@@ -68,138 +85,305 @@ func demo2() {
     let maxInt8Value = Int8.max
     let minUInt8Value = UInt8.min
     let maxUInt8Value = UInt8.max
-    println("minIntValue=\(minIntValue),maxIntValue=\(maxIntValue)")
-    println("minInt8Value=\(minInt8Value),maxInt8Value=\(maxInt8Value)")
-    println("minUInt8Value=\(minUInt8Value),maxUInt8Value=\(maxUInt8Value)")
+    print("minIntValue=\(minIntValue),maxIntValue=\(maxIntValue)")
+    print("minInt8Value=\(minInt8Value),maxInt8Value=\(maxInt8Value)")
+    print("minUInt8Value=\(minUInt8Value),maxUInt8Value=\(maxUInt8Value)")
     
     let value1 = 12_000_000  // 只是为了可读性
     let value2 = 1_000_000.000_000_1
-    println("value1=\(value1),value2=\(value2)")
+    print("value1=\(value1),value2=\(value2)")
     
     
     let value3:Float = 1.3
     let value4:Double = 1.3
     let value5 = 1.3
-    println("value3=\(value3),value4=\(value4),value5=\(value5)")
+    print("value3=\(value3),value4=\(value4),value5=\(value5)")
 }
 
+//demo2()
+
 func add(num1:Int,num2:Int)->(Int,Int,Int) {
-    var result = num1 + num2
+    let result = num1 + num2
     return (num1,num2,result)
 }
 
-// 多返回值
+// 元组、多返回值
 func demo3() {
-    let (num1,num2,result) = add(2, 3)
-    println("\(num1) + \(num2) = \(result)")
+    let (num1,num2,result) = add(2, num2: 3)
+    print("\(num1) + \(num2) = \(result)")
+    
+    
+    let point = (5, 2)
+    // 通过索引来取
+    point.0
+    point.1
+    
+    let (x, y) = point
+    x
+    y
+    
+    
+    let httpResponse = (404, "Not Found")
+    httpResponse.0
+    httpResponse.1
+    let (statusCode, statusMessage) = httpResponse
+    statusCode
+    statusMessage
+    
+    
+    let point2:(Int, Int, Int) = (2, 3, 5)
+    point2.0
+    
+    
+    
+    let httpResponse2:(Int, String) = (404, "Not Found")
+    httpResponse2.0
+    
+    let point3 = (x : 3, y: 2)
+    point3.0
+    point3.1
+    point3.x
+    point3.y
+    
+    let point4:(x:Int, y:Int) = (2, 3)
+    point4.0
+    point4.1
+    point4.x
+    point4.y
+    
+    let loginResult = (true, "username")
+    // 不想取的值用下划线占位
+    let(isLoginSuccess, _) = loginResult
+    if isLoginSuccess {
+        print("登陆成功")
+    }
+    
 }
 
+//demo3()
+
+
 func sayHello(name:String) {
-    println("Hello \(name)")
+    print("Hello \(name)")
 }
 
 // 函数也是一个对象，意味着可以直接当做一个变量来使用
 func demo4() {
-    var fun = sayHello
+    let fun = sayHello
     fun("王浩")
 }
+
+//demo4()
+
 
 // 数组
 func demo5() {
     var arr1 = ["Hello","World",5]
-    println(arr1)
-    println(arr1[2])
-    
-    var arr2 = [] // 存放任意数据类型
+    print(arr1)
+    print(arr1[2])
+
     
     var arr3 = [String]() // 只能存放特定类型
     arr3.append("Hello")
     arr3.append("Swift")
+    print(arr3)
     
-    println(arr3)
+    
+    let arr4 = [2,5,3,6,4]
+    // 这种方式是生成新的数组
+    let arr5 = arr4.sort({$0 < $1})
+    print(arr5)
+    
+    
+    var arr6 = [2,5,3,6,4]
+    // 这种方式是直接改变原数组
+    arr6.sortInPlace { (a, b) -> Bool in
+        return a < b
+    }
+    print(arr6)
+    arr6.sortInPlace({$0 > $1})
+    print(arr6)
+    
+    var arr7 = [2,5,3,6,4]
+    arr7.sortInPlace()
+    print(arr7)
 }
+
+//demo5()
+
 
 // 字典
 func demo6() {
     var dict = ["name":"王浩","address":"重庆市"]
     dict["sex"] = "男"
     
-    println(dict)
-    println(dict["name"])
+    print(dict)
+    print(dict["name"])
     
     var dict2:Dictionary<String,Int> = ["name":1,"address":2,"hehe":3,"sdfsdf":4]
     if dict2.removeValueForKey("name") != nil {
-        println("删除了")
+        print("删除了")
     } else {
-        println("没删除")
+        print("没删除")
     }
-    println(dict2.count)
+    print(dict2.count)
     
     for key in dict2.keys {
-        println(key)
+        print(key)
     }
     
     for value in dict2.values {
-        println(value)
+        print(value)
     }
     
     let keys = Array(dict2.keys)
-    println(keys)
+    print(keys)
     let values = Array(dict2.values)
-    println(values)
+    print(values)
 }
+
+//demo6()
 
 // 循环
 func demo7() {
-    var arr1 = [String]()
+    var arr = [String]()
     // 包含0，不包含5
+    for index in 0..<5 {
+        arr.append("Item \(index)")
+    }
+    print(arr)
+    
+    
+    var arr1 = [String]()
+    // 包含0，包含5
     for index in 0...5 {
         arr1.append("Item \(index)")
     }
-    println(arr1)
+    print(arr1)
     
     
     for value in arr1 {
-        println(value)
+        print(value)
     }
     
     
-    for (index, value) in enumerate(arr1) {
-        println("enumerate index\(index),\(value)")
-    }
+//    for (index, value) in enumerate(arr1) {
+//        print("enumerate index\(index),\(value)")
+//    }
     
     var i = 0
     while i<arr1.count {
-        println(arr1[i])
-        i++
+        print(arr1[i])
+        i += 1
     }
     
-    var dict = ["name":"王浩","address":"重庆市"]
+    let dict = ["name":"王浩","address":"重庆市"]
     
     for (key,value) in dict {
-        println("key=\(key),value=\(value)")
+        print("key=\(key),value=\(value)")
+    }
+    
+    var result = 1
+    let base = 2
+    let power = 10
+    for _ in 1...power {
+        result *= base
     }
 }
+
+//demo7()
+
 
 // 流程控制，可选变量
 func demo8() {
     for index in 0 ... 5 {
         if index%2 == 0 {
-            println(index)
+            print(index)
         }
     }
     
-    var name:String? = "bingoogol"
-    //name = nil
-    if var name2 = name {
-        println(name2)
+    var name:String? = "aaa"
+    name = "bbb"
+//    name = nil
+    
+    if let name2 = name {
+        print(name2)
+    }
+    
+    
+    if var name3 = name {
+        name3 = name3 + "test"
+        print(name3)
     }
     
     if name != nil {
-        println(name)
+        print(name)
+    }
+    
+    
+    // swift中必须穷举所有的可能性，否则必须写default，「switch也可以判断浮点数」「在每一个case后不用写break，默认会跳出」
+    let rating = "A"
+    switch rating {
+    case "A":
+        print("A")
+    case "B", "C":
+        print("B and C")
+    default:
+        () // 可以用小括号对来代替break
+//    default:
+//        break
+    }
+    
+    
+    let y = true
+    switch y {
+    case true:
+        print("true")
+    case false:
+        print("false")
+    }
+    
+    
+    let score = 90
+    switch score {
+    case 0..<60:
+        print("不及格")
+    case 60:
+        print("刚好及格")
+    case 61...100:
+        print("世纪东方机试的")
+    default:
+        print("错误的分数")
+    }
+    
+    
+    let vector = (8, 3)
+    switch vector {
+    case (0, 0):
+        print("1")
+    case (_, 5):
+        print("2")
+    case (8, _):
+        print("3")
+        fallthrough // 即使下一个case可能不满足条件也强制执行下一个case
+    case (9, 9):
+        print("4")
+        fallthrough
+    case (-2...2, -2..<3):
+        print("5")
+    case (let x, 3):
+        print("x is \(x)")
+    case (5, let y):
+        print("y is \(y)")
+    case (let x, let y):
+        print("The point is(\(x),\(y))")
     }
 }
 
+demo8()
+
+
+/*
 class Animal {
     func sayHi() {
         println("Hi bingoogol")
@@ -638,7 +822,7 @@ func demo24() {
 
 
 demo24()
-
+*/
 
 
 
