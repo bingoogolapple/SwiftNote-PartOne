@@ -293,24 +293,25 @@ func demo7() {
 
 //demo7()
 
-
-// 流程控制，可选变量
-func demo8() {
-    for index in 0 ... 5 {
-        if index%2 == 0 {
-            print(index)
-        }
-    }
-    
+func optionDemo() {
     var name:String? = "aaa"
     name = "bbb"
-//    name = nil
+    //    name = nil
     
-    if let name2 = name {
-        print(name2)
+    // 如果可选性变量name不为nil，则name解包赋值给unwrappedName，并执行花括号里的逻辑
+    if let unwrappedName = name {
+        // 解包后的unwrappedName就不是一个可选型了
+        print(unwrappedName)
     }
     
+    // 在这里允许使用相同的变量名，但是这个解包后的name只能在这个花括号内使用
+    if let name = name {
+        print(name)
+    } else {
+        print("name is nil")
+    }
     
+    // 可以用var，也可以用let
     if var name3 = name {
         name3 = name3 + "test"
         print(name3)
@@ -318,6 +319,70 @@ func demo8() {
     
     if name != nil {
         print(name)
+    }
+    
+    
+    let errorCode: Int? = 404
+    let errorMessage: String? = ""
+    // 判断多个可选性通过逗号分隔
+    if let errorCode = errorCode, errorMessage = errorMessage where errorCode == 404 {
+        print("Page Not Found")
+        print("errorCode=\(errorCode),errorMessage=\(errorMessage)")
+    }
+    
+    // 此时message不是可选性
+    let message:String
+    if let errorMessage = errorMessage {
+        message = errorMessage
+    } else {
+        message = "No Error"
+    }
+    // 此时message2是可选性
+    let message2 = errorMessage == nil ? "No Error" : errorMessage
+    // 此时message3不是可选性
+    let message3 = errorMessage ?? "No Error"
+    
+    errorMessage!.uppercaseString
+    
+    
+    var error1: (errorCode: Int, errorMessage: String?) = (404, "Not Found")
+    error1.errorMessage = nil
+    error1
+    // error1并不是可选性，不能设置为nil
+//    error1 = nil
+    
+    var error2: (errorCode: Int, errorMessage: String)? = (404, "Not Found")
+    // error2.errorMessage并不是可选性，不能设置为nil
+//    error2?.errorMessage = nil
+    error2 = nil
+    
+    var error3: (errorCode: Int, errorMessage: String?)? = (404, "Not Found")
+    
+    
+    var ageInput: String = "abc"
+    // 此时age是一个可选性，「当ageInput是数字字符串时，age就是对应的数字，否则age为nil」
+    var age = Int(ageInput)
+    
+    if let age = Int(ageInput) where age < 20 {
+        print("haha")
+    }
+    
+    
+    var greetings = "Hello"
+    greetings.rangeOfString("ll")
+    greetings.rangeOfString("oo")
+}
+
+//optionDemo()
+
+
+
+// 流程控制，可选变量
+func demo8() {
+    for index in 0 ... 5 {
+        if index%2 == 0 {
+            print(index)
+        }
     }
     
     
@@ -378,19 +443,62 @@ func demo8() {
     case (let x, let y):
         print("The point is(\(x),\(y))")
     }
+    
+    
+    let age = 19
+    switch age {
+    case 10...19:
+        print("teenager")
+    default:
+        print("not ateenager")
+    }
+    
+    if case 10...19 = age {
+        print("teenager")
+    } else {
+        print("not ateenager")
+    }
+    
+    if age >= 10 && age <= 19 {
+        print("teenager")
+    } else {
+        print("not ateenager")
+    }
+    
+    if case 10...19 = age where age >= 18 {
+        print("teenager and in a college")
+    }
+    
+    
+    
+    let vector2 = (4,0)
+    if case (let x, 0) = vector2 where x > 2 && x < 5 {
+        print("haha")
+    }
+    
+    
+    
+    for i in 1...10 {
+        if i % 3 == 0 {
+            print(i)
+        }
+    }
+    
+    for case let i in 1...10 where 1 % 3 == 0 {
+        print(i)
+    }
 }
 
 demo8()
 
 
-/*
 class Animal {
     func sayHi() {
-        println("Hi bingoogol")
+        print("Hi bingoogol")
     }
     
     func sayClassName() {
-        println("Animal")
+        print("Animal")
     }
 }
 
@@ -403,25 +511,26 @@ class Cat : Animal {
     }
     
     override func sayClassName() {
-        println("Cat")
+        print("Cat")
     }
     
     func sayName() {
-        println(self._name)
+        print(self._name)
     }
 }
 
 
 func demo9() {
-    var animal = Animal()
+    let animal = Animal()
     animal.sayHi()
     animal.sayClassName()
     
-    var cat = Cat(name: "加菲猫")
+    let cat = Cat(name: "加菲猫")
     cat.sayHi()
     cat.sayClassName()
     cat.sayName()
 }
+
 
 //(num:Int) -> Bool 闭包Closure参数类型
 func hasClosureMath(arr:[Int],value:Int,cb:(num:Int,value:Int) -> Bool) ->Bool{
@@ -437,17 +546,18 @@ func hasClosureMath(arr:[Int],value:Int,cb:(num:Int,value:Int) -> Bool) ->Bool{
 
 //闭包
 func demo10() {
-    var arr = [20,9,100,34,89,39]
+    let arr = [20,9,100,34,89,39]
     // 找是否arr中有比110大的数字
-    var v1 = hasClosureMath(arr,110,{
+    let v1 = hasClosureMath(arr,value: 110,cb: {
             (num:Int,value:Int) -> Bool in
                 return num >= value
             //这里$0表示num   $1表示value
             //return $0 >= $1
         })
-    println("v1 is \(v1)")
+    print("v1 is \(v1)")
 }
 
+/*
 struct QFTest {
     var x = 0;
     var y = 0;
