@@ -30,9 +30,51 @@ func demo1() {
     
     
     print(x, "*", y, "=", x * y)
+    
+    
+    
+    
+    var test1 = "Hello, Swift"
+    let startIndex = test1.startIndex
+    test1[startIndex]
+    test1[startIndex.advancedBy(5)]
+    test1[startIndex.advancedBy(6)]
+    
+    let spaceIndex = startIndex.advancedBy(6)
+    spaceIndex
+    test1[spaceIndex]
+    // 查看前一个
+    test1[spaceIndex.predecessor()]
+    // 查看后一个
+    test1[spaceIndex.successor()]
+    
+    let endIndex = test1.endIndex
+    // [startIndex, endIndex)
+    test1[endIndex.predecessor()]
+    
+    test1[startIndex..<spaceIndex]
+    let range = startIndex ..< spaceIndex.predecessor()
+    test1.replaceRange(range, with: "Hi")
+    test1.appendContentsOf("!!!")
+    test1.insert("?", atIndex: test1.endIndex)
+    test1.removeAtIndex(test1.endIndex.predecessor())
+    test1.removeRange(test1.endIndex.advancedBy(-2)..<test1.endIndex)
+    test1.hasPrefix("Hi")
+    test1.hasSuffix("ift!")
+    test1.containsString("Swi")
+    test1.uppercaseString
+    test1.lowercaseString
+    test1.capitalizedString
+    
+    let test2: String = NSString(format: "on third is %.2f", 1.0/3.0) as String
+    test2
+    let test3 = "   --- Hello --------   " as NSString
+    test3.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: " "))
+    test3.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: "- "))
+    test3.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: " -"))
 }
 
-//demo1()
+demo1()
 
 
 struct Stack<T> {
@@ -489,7 +531,7 @@ func demo8() {
     }
 }
 
-demo8()
+//demo8()
 
 
 class Animal {
