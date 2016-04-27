@@ -74,7 +74,7 @@ func demo1() {
     test3.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: " -"))
 }
 
-demo1()
+//demo1()
 
 
 struct Stack<T> {
@@ -209,17 +209,101 @@ func sayHello(name:String) {
     print("Hello \(name)")
 }
 
+func sayHelloTo1(name:String, greeting:String) {
+    print(name, greeting)
+}
+
+func sayHelloTo2(name:String, withGreetingWord greeting:String) {
+    print(name, greeting)
+}
+
+func sayHello3(to name:String, withGreetingWord greeting:String) {
+    print(name, greeting)
+}
+
+func sayHello4(to name:String, withGreetingWord greeting:String = "Hello") {
+    print(name, greeting)
+}
+
+func sayHello5(to name:String = "bga", withGreetingWord greeting:String = "Hello") {
+    print(greeting, name)
+}
+
+func mutiply(num1: Int, _ num2: Int) -> Int {
+    return num1 * num2
+}
+
+func mean(numbers: Double ...) -> Double {
+    var sum: Double = 0
+    for number in numbers {
+        sum += number;
+    }
+    return sum / Double(numbers.count)
+}
+
+func customSwap(inout a: Int, inout _ b: Int) {
+//    let t: Int = a;
+//    a = b;
+//    b = t
+    
+    (a, b) = (b, a)
+}
+
 // 函数也是一个对象，意味着可以直接当做一个变量来使用
 func demo4() {
     let fun = sayHello
     fun("王浩")
+    
+    sayHello5()
+    sayHello5(to: "bingoogolapple")
+    sayHello5(withGreetingWord: "Hi")
+    sayHello5(to: "bingoogolapple", withGreetingWord: "Hi")
+    sayHello5(withGreetingWord: "Hi", to: "bingoogolapple")
+    
+    var x:Int = 1
+    var y:Int = 2
+    customSwap(&x, &y)
+    x
+    y
+    
+    // swift中数组、字典、集合都是值传递
 }
 
-//demo4()
+demo4()
 
 
 // 数组
 func demo5() {
+    let test1: [Int] = [0, 1, 2, 3, 4]
+    let test2: Array<Int> = [0, 1, 2, 3, 4]
+    
+    var emptyArr1: [Int] = []
+    var emptyArr2: Array<Int> = []
+    var emptyArr3 = [Int]()
+    var emptyArr4 = Array<Int>()
+    
+    var allZeros = [Int](count: 5, repeatedValue: 0)
+    var allZeros2 = Array<Int>(count: 5, repeatedValue: 0)
+    
+    // 返回的是可选类型
+    test1.first
+    test1.last
+    emptyArr1.first
+    
+    test1.minElement()
+    test1.maxElement()
+    test1[2..<4]
+    test1.contains(3)
+    test1.indexOf(3)
+    
+    for number in test1 {
+        print(number)
+    }
+    for (index, number) in test1.enumerate() {
+        print("\(index + 1):\(number)")
+    }
+    
+    
     var arr1 = ["Hello","World",5]
     print(arr1)
     print(arr1[2])
@@ -256,11 +340,20 @@ func demo5() {
 
 // 字典
 func demo6() {
+    var emptyDict1: [String: Int] = [:]
+    var emptyDict2: Dictionary<Int, String> = [:]
+    var emptyDict3 = [String: String]()
+    var emptyDict4 = Dictionary<Int, Int>()
+    
     var dict = ["name":"王浩","address":"重庆市"]
     dict["sex"] = "男"
     
     print(dict)
     print(dict["name"])
+    
+    if let value = dict["name"] {
+        print(value)
+    }
     
     var dict2:Dictionary<String,Int> = ["name":1,"address":2,"hehe":3,"sdfsdf":4]
     if dict2.removeValueForKey("name") != nil {
@@ -278,13 +371,37 @@ func demo6() {
         print(value)
     }
     
+    for (key, value) in dict2 {
+        print("\(key),\(value)")
+    }
+    
     let keys = Array(dict2.keys)
     print(keys)
     let values = Array(dict2.values)
     print(values)
+    
+    
+    
+    
+    
+    
+    
+    var skillsOfA: Set<String> = ["swift", "OC", "OC", "html", "css"]
+    skillsOfA.count
+    var emptySet1: Set<Int> = []
+    var emptySet2 = Set<Double>()
+    var vowels = Set(["A", "E", "I", "O", "U"])
+    // 集合是无需的，随机取出一个
+    skillsOfA.first
+    
+    
+    for skill in skillsOfA {
+        print(skill)
+    }
+    
 }
 
-//demo6()
+demo6()
 
 // 循环
 func demo7() {
